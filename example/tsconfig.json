@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-web-view": ["../src/ExpoWebView"],
+      "expo-web-view/*": ["../src/*"]
+    }
+  }
+}
